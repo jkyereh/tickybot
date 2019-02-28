@@ -1,0 +1,76 @@
+body {
+  font-family: "Signika", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.75);
+}
+nav {
+    background: #40596b;
+    font-size: 1.25em;
+    background-size: cover;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    display: inline-block;
+    padding: 18px 6px;
+    color: #ffd05a;
+    text-decoration: none;
+    text-align: center;
+}
+.header{
+  background-color: #55c0ec;
+  justify-content: center;
+  min-height: calc(100vh - 12rem);  
+  text-align: center;
+}
+.phrase {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 125px;
+  padding-left: 25px;
+}
+.about {
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-bottom: 3px;
+  height: 300px;
+  font-size: 18px;
+  font-weight: 200;
+}
+#slack-icon {
+  width: 2.5rem;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  transition: transform .3s ease-in-out;
+  }
+.tickyimg {
+ display: block;
+  max-width: 100%;
+  height: auto; 
+  margin-right: 145px;
+  padding-right: 145px;
+}
+.features {
+  height: 700px;
+  background-color: #90ddaa;
+}
+.card{
+  background-color: #40596b;
+  border-radius: 4px;
+  padding: 0;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  min-width: 300px;
+}
+footer {
+  background-color: #40596b;
+}

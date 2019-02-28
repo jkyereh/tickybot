@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ticky Bot</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="bot.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+    </head>
+    <body>
+        <!--Nav bar-->
+        <div>
+        <nav class="container-fluid text">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#addtoslack">Add to Slack</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <!--Header-->       
+        <div class="header w3-container"> 
+       
+        <div class="tickyimg w3-display-right"><img src="tickybot.svg"></div>
+        <div class="phrase w3-display-container w3-display-left">
+             <h1 style="color: rgba(0,0,0,.65)"><strong>TickyBot</strong></h1>
+        <p>Let your team manage their support <br>tickets 100% inside slack</p>
+        <button><img id="slack-icon" src="slack.svg">Add to <strong>Slack</strong></button>
+        </div>
+    </div>
+
+        <!--About-->
+    
+        <div class="about w3-display-container">    
+            <div class="w3-display-topmiddle">
+                <h1><u>What is <strong>TickyBot</u></strong></h1>
+            </div>    
+            <div class="w3-display-left">
+                <p>TickyBot is a Slack Bot that let's you use support <br>tickets on Slack. This way, you don't need to leave<br> your beloved channel to assist your users, if you don't<br> feel like it.</p>
+            </div>
+            <div class="w3-display-right">
+                <p>With TickyBot you can easily check if you've received new tickets,<br> change their status, or write a reply, and the ticket
+                will instantly<br> update itself on our site.</p>
+            </div>
+            <div class="w3-display-bottommiddle">
+                <p>Support requests shouldn't be handled through Slack's direct messages.<br>
+                Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other
+                admins could look into the issue.</p>
+            </div>
+        </div>
+
+
+        <!--Features-->
+        <div class="features w3-container w3-display-container">
+            <h2>How it works</h2>
+                <div class="card w3-card-4 w3-display-left">
+                    <img id="" src="workplace.svg" alt="Norway">
+                        <div class="w3-container w3-center">
+                            <p>You can add TickyBot to your Slack workplace by scrolling down or click here</p>
+                        </div>
+                </div>
+                <div class="card w3-card-4 w3-display-middle">
+                    <img src="workplace.svg" alt="Norway">
+                        <div class="w3-container w3-center">
+                            <p>Your users can open a ticket by typing /ticket and their message into the chat field</p>
+                        </div>
+                </div>
+                <div class="card w3-card-4 w3-display-right">
+                    <img src="workplace.svg" alt="Norway">
+                        <div class="w3-container w3-center">
+                            <p>Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
+                        </div>
+                </div>
+        </div>
+        
+        <!--Add to Slack-->
+        <div class="slack">
+        <h2>Start Using TickyBot Today</h2>
+        <p>TickyBot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between
+        different apps.</p>
+        <p>Add to Slack</p>
+        <p>... so you don't need to go back and forth with another app.</p>
+        </div>
+        <!--Footer-->
+
+        <footer class="row align-items-center justify-content-center text-center">
+            <div class="col-12 my-4" data-aos="fade" data-aos-anchor="#addToSlack" data-aos-anchor-placement="top-center">
+                <p>Made with ❤️ by Josh Single</p>
+                <p>Source code is available on my <a href="">GitHub page</a></p>
+                <p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p>
+            </div>
+        </footer>
+
+
+       </body>
+</html>
+
+
