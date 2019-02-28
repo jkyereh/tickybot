@@ -63,13 +63,39 @@ nav a {
   height: 700px;
   background-color: #90ddaa;
 }
+
+#features {
+  background: #90DDAA;
+  min-height: 300px;
+  perspective: 1300px;
+}
+
 .card{
   background-color: #40596b;
+  align-items: center;
+  border: 0;
   border-radius: 4px;
-  padding: 0;
-  margin: 1rem;
-  margin-bottom: 3rem;
-  min-width: 300px;
+  font-size: 1.25em;
+  margin-bottom: 3em;
+  width: 22%
+  min-width: 340px;
+  max-width: 340px;
+}
+.card a {
+  text-decoration: underline;
+} 
+.card-left {
+  margin-right: 1.5em;
+}
+.card-right {
+  margin-left: 1.5em;
+}
+.card-body {
+  background: white;
+}
+.card-image-top {
+  width: 224px;
+  margin: 4rem 0;
 }
 footer {
   background-color: #40596b;
