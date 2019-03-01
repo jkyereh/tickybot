@@ -97,24 +97,33 @@ nav a {
   width: 224px;
   margin: 4rem 0;
 }
+.addslack {
+  padding: 1rem;
+  min-height: auto;
+}
+h3 {
+  text-align: center;
+  align-content: center;
+}
+.slack-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  font-size: 1.25rem;
+}
+#last-button {
+  background-color: #40596b;
+  margin: 5rem auto;
+}
+#last-button span {
+  color: hsla(0,0%,100%,.9);
+}
 footer {
   background-color: #40596b;
-}
-#start-using-tickybot-today {
-  line-height: 1.5;
-  font-size: 1.25rem;
-  color: rgba(0,0,0,.75);
-  padding-bottom:20px;
-}
-.ptitle {
-  font-size: 45px;
-  letter-spacing: -.125rem;
-  line-height: 1.25;
-  padding-top: 40px;
-  justify-self: center;
-}
-.lastslack {
-  position: 
-  justify-content: center;
-  align-content: center;
 }
