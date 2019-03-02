@@ -40,13 +40,53 @@ nav a {
   padding-left: 25px;
   margin-bottom: 20px;
 }
+.what-section{
+    font-family: 'Signika', sans-serif;
+}
 
-.about {
-  display: flex;
-  height: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  margin-bottom: 20px;
+.what-section h2{
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-size: 270%;
+}
+
+.what-section p {
+    font-size: 140%;
+    font-weight: 300;
+    padding: 0px 10px 50px 10px;
+    color: rgba(0,0,0,.75);
+    line-height: 1.5;
+}
+
+.what-section div.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.what-section h2 span{
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.ticky-bot{
+    font-weight: 600;
+}
+
+.italic-next-line{
+    font-weight: 300;
+    font-style: italic;
+    float: left;
+    clear: both;
+    padding: 0 0 50px 0;
+}
+
+.blue-bar{
+    background-color: #55c0ec;
+    height: 3px;
+    width: 160px;
+    margin: 0 auto 40px auto;
+}
+
 }
 #slack-icon {
   width: 2.5rem;
