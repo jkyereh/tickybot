@@ -31,7 +31,6 @@ nav a {
   min-height: calc(100vh - 12rem);  
   text-align: center;
 }
-
 .phrase {
   color: white;
   font-size: 1.5rem;
@@ -43,13 +42,11 @@ nav a {
 .what-section{
     font-family: 'Signika', sans-serif;
 }
-
 .what-section h2{
     text-align: center;
     margin: 40px 0 0 0;
     font-size: 270%;
 }
-
 .what-section p {
     font-size: 140%;
     font-weight: 300;
@@ -57,21 +54,17 @@ nav a {
     color: rgba(0,0,0,.75);
     line-height: 1.5;
 }
-
 .what-section div.row {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .what-section h2 span{
     font-weight: 600;
     letter-spacing: -2px;
 }
-
 .ticky-bot{
     font-weight: 600;
 }
-
 .italic-next-line{
     font-weight: 300;
     font-style: italic;
@@ -79,21 +72,22 @@ nav a {
     clear: both;
     padding: 0 0 50px 0;
 }
-
 .blue-bar{
     background-color: #55c0ec;
     height: 3px;
     width: 160px;
     margin: 0 auto 40px auto;
 }
-
 }
-#slack-icon {
-  width: 2.5rem;
-  margin: 0 1rem 0 0;
-  padding: 0;
-  transition: transform .3s ease-in-out;
-  }
+#slack-icon { 
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 40px;
+    padding-top: 15px;
+    margin-left: 10px;
+    transition: width 0.5s, transform 0.5s, padding 0.5s, margin 0.5s;
+}
 .tickyimg {
  display: block;
   max-width: 100%;
@@ -101,17 +95,11 @@ nav a {
   margin-right: 145px;
   padding-right: 145px;
 }
-.features {
-  height: 700px;
-  background-color: #90ddaa;
-}
-
 #features {
   background: #90DDAA;
   min-height: 300px;
   perspective: 1300px;
 }
-
 .card{
   background-color: #40596b;
   align-items: center;
