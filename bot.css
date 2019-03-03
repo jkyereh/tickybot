@@ -25,19 +25,95 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-.header{
-  background-color: #55c0ec;
+.about-container {
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  min-height: calc(100vh - 12rem);  
+  align-items: center;
+  margin-top: 63px;
+  background-color: #55c0ec;
   text-align: center;
+  padding-top:120px;
+  padding-bottom:120px;
 }
-.phrase {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-left: 125px;
-  padding-left: 25px;
-  margin-bottom: 20px;
+
+.about-container h1 {
+  font-size: 5rem;
+  letter-spacing: -.1875rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  color: rgba(0,0,0,0.6);
+  font-weight: 300;
+}
+
+.about-container h1 strong {
+  font-weight: 600;
+}
+
+.about-container .slack-button strong {
+  font-weight: 500;
+  color: rgba(0,0,0,0.65);
+}
+
+.about-container p {
+  color: #fff;
+  font-size: 1.675rem;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+
+.about-container .flex-item {
+  max-width: 544px;
+  margin: 2rem;
+}
+
+.about-container .flex-item img {
+  max-width: 100%;
+}
+
+.button-container {
+  width: 300px;
+  height: 70px;
+  margin: auto;
+}
+
+.slack-button {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  background-color: #fff;
+  color: rgba(0,0,0,0.75);
+  border: none;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: 1rem;
+  font-weight: 300;
+  transition: transform 1s 0.3s,  background-color 0.2s;
+}
+
+.slack-button:hover {
+  transform: scale(0.97);
+  background-color: #eef9fd;
+  cursor: pointer;
+}
+
+.slack-button img {
+  width: 40px;
+  margin: 0 1rem 0 0;
+  transition: 0.5s;
+}
+
+.slack-button:hover img {
+  transform: rotate(17deg) scale(1.4);
+}
+.button-flex
+-item {
+  margin: 0;
+  padding: 0;
 }
 .what-section{
     font-family: 'Signika', sans-serif;
@@ -78,7 +154,6 @@ nav a {
     width: 160px;
     margin: 0 auto 40px auto;
 }
-}
 #slack-icon { 
     top: 0;
     left: 30px;
@@ -106,7 +181,7 @@ nav a {
   border-radius: 4px;
   font-size: 1.25em;
   margin-bottom: 3em;
-  width: 22%
+  width: 22%;
   min-width: 340px;
   max-width: 340px;
 }

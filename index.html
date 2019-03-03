@@ -31,14 +31,22 @@
 
         <!--Header-->       
         <main>
-        <div class="header w3-container"> 
-        <div class="tickyimg w3-display-right"><img src="tickybot.svg"></div>
-        <div class="phrase w3-display-container w3-display-left">
-             <h1 style="color: rgba(0,0,0,.65)"><strong>TickyBot</strong></h1>
-        <p>Let your team manage their support <br>tickets 100% inside slack</p>
-        <button><img id="slack-icon" src="slack.svg">Add to <strong>Slack</strong></button>
-        </div>
-    </div>
+        <a name="home"></a>
+        <section class="about-container">
+            <div class="flex-item">
+                <h1 class="fadein-wrapper" id="about-heading"><strong>Ticky</strong>Bot</h1>
+                <p class="fadein-wrapper" id="slogan">Let your team manage their support tickets 100% inside Slack</p>
+                <div class="button-container fadein-wrapper">
+                    <button class="slack-button fadein-wrapper" id="first-slack-button">
+                        <div class="button-flex-item"><img src="slack.svg" alt="Slack Logo"></div>
+                        <div class="button-flex-item">Add to <strong>Slack</strong></div>
+                    </button>
+                </div>
+            </div>
+            <div class="flex-item fadein-wrapper" id="robot-image">
+                <img src="tickybot.svg" alt="Robot Logo">
+            </div>
+        </section>
 
 
     <!--About-->
